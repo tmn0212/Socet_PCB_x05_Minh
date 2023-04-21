@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "X05_NewDesign_FPGA_lib")(type "KiCad")(uri "${KIPRJMOD}/Parts Library/X05_NewDesign_FPGA_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "ASP-134603-01")(type "KiCad")(uri "${KIPRJMOD}/Parts Library/ASP-134603-01.kicad_sym")(options "")(descr ""))
+)

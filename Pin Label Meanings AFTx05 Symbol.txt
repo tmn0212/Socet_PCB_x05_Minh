@@ -1,0 +1,38 @@
+Pin(s) --> Pin Name(s) --> Pin Function
+========================================
+1 --> VDDIO_L --> + Reference Voltage for IO Signals (Left)
+2 --> SCAN_OUT --> Scan Output for Scan Chain
+3 --> SCAN_IN --> Scan Input for Scan Chain
+4 --> SCAN_EN --> Scan Enable for Scan Chain
+5 --> TEST_SIG --> Test Signal for Chip
+6 --> CLK -> CLK Input
+7 --> ASYNC_RST -> Asynchronous Reset
+8,9 --> RX, TX --> Receive, Transmit Data Pins
+10, 11, 14-23, 27-33 -->  ADDR_0 - ADDR_18 --> Memory Address Pins
+12 --> VDD_L --> + Voltage (Left)
+13 --> VSS_L --> - Voltage (Left)
+24 --> VSSIO_L --> - Reference Voltage for IO Signals (Left)
+26 --> VDDIO_D --> + Reference Voltage for IO Signals (Down)
+34-36, 39 -- > BYTE_nWE_0-BYTE_nWE_3 --> Write Enable
+37 --> VSS_D --> - Voltage (Down)
+38 --> VDD_D --> + Voltage (Down)
+40 --> nOE --> Output Enable
+41 --> RING_OSC --> Ring Oscillator Output
+42-48, 53-62, 65-74, 78-82 --> MEM_0 - MEM_31 --> Memory Data Bidirectional Pins
+49 --> VSSIO_D --> - Reference Voltage for IO Signals (Down)
+52 --> VSSIO_R --> - Reference Voltage for IO Signals (Right)
+63 --> VDD_R --> + Voltage (Right)
+64 --> VSS_R --> - Voltage (Right)
+75 --> VDDIO_R --> + Reference Voltage for IO Signals (Right)
+77 --> VSSIO_U --> - Reference Voltage for IO Signals (Up)
+83 --> POLY_X --> X input for Polymorphic CRC32
+84 --> POLY_ORI --> Orient input for Polymorphic CRC32
+85 --> POLY_B --> B input for Polymorphic CRC32
+86 --> POLY_A --> A input for Polymorphic CRC32
+87 --> POLY_SEL --> Select Input for Polymorphic CRC32
+88 --> VDD_U --> + Voltage (Up)
+89 --> VSS_U --> - Voltage (Up)
+90 --> TIME_OUT --> Timer Output
+91 --> PWM --> PWM Output
+92-99 --> IO_0 - IO_7 --> Bidirectional GPIO Pins
+100 --> VDDIO_U --> + Reference Voltage for IO Signals (Up)
